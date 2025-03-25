@@ -1,0 +1,163 @@
+
+body {
+    background: #f9f9f9;
+    width: 100%;
+    max-width: 950px;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    padding: 20px 30px;
+    line-height: 1.6;
+    margin: 0 auto;
+    color: #333;
+    background-color: #f1f1f1;
+}
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: #80d4ff;
+    margin-right: 20%;
+    padding-bottom: 16px;
+    border-bottom: 3px solid #b3e0ff;
+    transition: all 0.3s ease;
+}
+
+h1:hover {
+    color: #b3e0ff;
+    border-color: #80d4ff;
+    transform: translateX(10px);
+}
+
+
+h2 {
+    font-family: 'Segoe Script', cursive;
+    font-size: 36px;
+    color: #a5d6a7;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #81c784;
+    transition: all 0.3s ease;
+}
+
+h2:hover {
+    color: #81c784;
+    border-color: #a5d6a7;
+}
+
+
+h3 {
+    font-family: 'Verdana', sans-serif;
+    color: #80cbc4;
+    font-size: 28px;
+    padding-left: 15px;
+}
+
+
+p {
+    margin-left: 30px;
+    padding-left: 10px;
+    color: #555;
+    font-size: 18px;
+}
+
+
+header {
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0 30px;
+    background-color: #c8e6c9;
+    color: #333;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+header p {
+    font-family: 'Segoe Script', cursive;
+    font-size: 20px;
+    color: #333;
+    border-left: 0;
+    margin-top: 20px;
+}
+
+
+header ul {
+    font-size: 18px;
+    font-weight: bold;
+    color: #607d8b;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+ul {
+    margin-left: 30px;
+    padding: 5px 0 0 50px;
+    border-left: 2px solid #e0e0e0;
+}
+
+
+.gris_italique {
+    font-style: italic;
+    font-size: 16px;
+    font-weight: normal;
+    color: #888;
+}
+
+
+#photo {
+    width: 300px;
+    float: right;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+#email {
+    text-decoration: none;
+    font-size: 22px;
+    color: #66bb6a;
+    transition: color 0.3s ease;
+}
+
+#email:hover {
+    color: #388e3c;
+}
+
+
+aside {
+    margin-right: 15px;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin-right: 0;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    #photo {
+        width: 100%;
+        margin: 10px 0;
+        float: none;
+    }
+
+    header {
+        font-size: 14px;
+    }
+}
